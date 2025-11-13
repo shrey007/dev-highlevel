@@ -7,7 +7,7 @@ from datetime import datetime
 
 class MemoryService:
     def __init__(self):
-        db_path = os.getenv("SQLITE_PATH", "data/app.db")
+        db_path = "data/app.db"
         os.makedirs(os.path.dirname(db_path), exist_ok=True)
         self.engine = create_engine(f"sqlite:///{db_path}")
         SQLModel.metadata.create_all(self.engine)

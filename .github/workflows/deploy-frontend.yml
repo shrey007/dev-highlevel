@@ -42,7 +42,7 @@ jobs:
       - name: Build
         working-directory: ./frontend
         env:
-          VITE_API_BASE: ${{ secrets.VITE_API_BASE || 'https://your-railway-backend-url.railway.app' }}
+          VITE_API_BASE: 'https://dev-highlevel-production.up.railway.app'
         run: npm run build
 
       - name: Setup Pages
