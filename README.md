@@ -73,7 +73,7 @@ pip install -r requirements.txt
 ```bash
 # Create .env file and add:
 OPENAI_API_KEY=your_key_here  # Optional: If set, will be used as default. Users can override with their own key.
-OPENAI_MODEL=gpt-4o-mini
+OPENAI_MODEL=gpt-4.1
 CORS_ORIGINS=""  # Set to your frontend URL (in my case https://shrey007.github.io)
 ```
 
