@@ -257,7 +257,7 @@ CRITICAL RULES - MUST FOLLOW:
    - If info missing → ask user
 
 5. MEMORY KEYS REFERENCE:
-   - home_airport: User's home city/airport code (e.g., "DEL", "Mumbai")
+   - home_airport: User's home city/airport code (e.g., "Delhi", "Mumbai" etc...)
    - hotel_max_night: Budget per night in numbers (e.g., 5000, 8000)
    - dietary: Food preferences (e.g., "vegetarian", "vegan", "halal")
    - cabin: Flight class (e.g., "economy", "business", "first")
