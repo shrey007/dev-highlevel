@@ -17,7 +17,7 @@ flowchart TD
   U[User] --> FE[Vue + Tailwind Chat UI]
   FE <-->|HTTPS| API[(FastAPI Orchestrator)]
   subgraph Orchestrator
-    OAI[OpenAI LLM (function-calling)]
+    OAI[OpenAI LLM & function-calling]
     TOOLS[(Tool Registry)]
     MEM[Memory Service: SQLite]
     MOCKS[Mock Data: flights/hotels/activities JSON]
