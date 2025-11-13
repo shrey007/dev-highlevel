@@ -9,7 +9,7 @@ load_dotenv()
 
 app = FastAPI(title="Travel Agent API")
 
-origins = os.getenv("CORS_ORIGINS", "http://localhost:5176").split(",")
+origins = os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",")
 
 app.add_middleware(
     CORSMiddleware,

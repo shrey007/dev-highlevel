@@ -61,7 +61,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, nextTick } from 'vue'
-import { chatApi } from '../api'
+import { chatApi, getConversation } from '../api'
 import { useInspectorStore } from '../stores/inspector'
 
 const messages = ref<Array<{ role: string; content: string }>>([])
@@ -71,18 +71,55 @@ const apiKey = ref('')
 const messagesContainer = ref<HTMLElement | null>(null)
 const inspectorStore = useInspectorStore()
 
-const sessionId = 'default-session'
+// Generate or retrieve session ID
+const generateSessionId = () => {
+  return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9)
+}
 
-onMounted(() => {
+const getSessionId = () => {
+  let sessionId = localStorage.getItem('travel_agent_session_id')
+  if (!sessionId) {
+    sessionId = generateSessionId()
+    localStorage.setItem('travel_agent_session_id', sessionId)
+  }
+  return sessionId
+}
+
+const sessionId = ref(getSessionId())
+
+onMounted(async () => {
+  // Load saved API key
   const saved = sessionStorage.getItem('openai_api_key')
   if (saved) {
     apiKey.value = saved
   }
   
-  messages.value.push({
-    role: 'assistant',
-    content: 'Hello! I\'m your travel agent. I can help you plan trips by searching for flights, hotels, and activities. What would you like to do?'
-  })
+  // Try to load existing conversation
+  try {
+    const conversation = await getConversation(sessionId.value)
+    
+    if (conversation.exists && conversation.turns && conversation.turns.length > 0) {
+      // Restore conversation from backend
+      messages.value = conversation.turns.map(turn => ({
+        role: turn.role,
+        content: turn.content
+      }))
+      scrollToBottom()
+    } else {
+      // New conversation
+      messages.value.push({
+        role: 'assistant',
+        content: 'Hello! I\'m your travel agent. I can help you plan trips by searching for flights, hotels, and activities. What would you like to do?'
+      })
+    }
+  } catch (error) {
+    // If backend call fails, start fresh
+    console.error('Failed to load conversation:', error)
+    messages.value.push({
+      role: 'assistant',
+      content: 'Hello! I\'m your travel agent. I can help you plan trips by searching for flights, hotels, and activities. What would you like to do?'
+    })
+  }
 })
 
 const saveApiKey = () => {
@@ -98,7 +135,12 @@ const scrollToBottom = () => {
 }
 
 const clearConversation = () => {
-  if (confirm('Clear conversation history? This will reset the chat.')) {
+  if (confirm('Clear conversation history? This will start a new session.')) {
+    // Generate new session ID and clear localStorage
+    sessionId.value = generateSessionId()
+    localStorage.setItem('travel_agent_session_id', sessionId.value)
+    
+    // Reset UI
     messages.value = [{
       role: 'assistant',
       content: 'Hello! I\'m your travel agent. I can help you plan trips by searching for flights, hotels, and activities. What would you like to do?'
@@ -121,7 +163,7 @@ const sendMessage = async () => {
   inspectorStore.clearMemoryDiff()
   
   try {
-    const response = await chatApi(sessionId, userMessage, apiKey.value)
+    const response = await chatApi(sessionId.value, userMessage, apiKey.value)
     
     messages.value.push({ role: 'assistant', content: response.reply })
     

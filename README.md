@@ -34,8 +34,18 @@ flowchart TD
 ```
 .
 ├── backend/          # FastAPI backend
+│   ├── app/
+│   │   ├── main.py           # FastAPI app
+│   │   ├── orchestrator.py   # Agent brain (LLM + tools)
+│   │   ├── memory/           # SQLite storage
+│   │   ├── tools/            # Flight/hotel/activity search
+│   │   └── routes/           # API endpoints
+│   └── requirements.txt
 ├── frontend/         # Vue.js frontend
-├── docs/            # Documentation
+│   ├── src/
+│   │   ├── components/       # ChatView, InspectorView
+│   │   └── api.ts            # Backend API client
+│   └── package.json
 └── README.md
 ```
 
@@ -64,7 +74,7 @@ pip install -r requirements.txt
 # Create .env file and add:
 OPENAI_API_KEY=your_key_here  # Optional: If set, will be used as default. Users can override with their own key.
 OPENAI_MODEL=gpt-4o-mini
-CORS_ORIGINS=""
+CORS_ORIGINS=""  # Set to your frontend URL (in my case https://shrey007.github.io)
 ```
 
 5. Run server:
@@ -99,9 +109,9 @@ npm run dev
 ### Railway (Backend)
 
 1. **Create Railway Account & Project**
-   - Go to [railway.app](https://railway.app) and sign in with GitHub
+   - Go to https://railway.app and sign in with GitHub
    - Click "New Project" → "Deploy from GitHub repo"
-   - Select your `shrey007/dev-highlevel` repository
+   - Select your repository (`shrey007/dev-highlevel` in my case)
 
 2. **Configure Service**
    - Railway will auto-detect the backend
@@ -114,11 +124,11 @@ npm run dev
      ```
      OPENAI_API_KEY=your_openai_api_key_here
      OPENAI_MODEL=gpt-4o-mini
-     CORS_ORIGINS=https://shrey007.github.io/dev-highlevel
+     CORS_ORIGINS=https://shrey007.github.io
      ```
    - **Important**: Replace `CORS_ORIGINS` with your actual GitHub Pages URL after frontend is deployed
 
-4. **Add Volume for Database (Optional)**
+4. **Add Volume for Database (Optional, I have not done this due to free tier option.)**
    - Go to service → Volumes tab
    - Add volume mount: `/app/data` → `/data` (or mount at `/app/data`)
    - This ensures SQLite database persists across deployments
@@ -135,21 +145,16 @@ npm run dev
    - Source: Select "GitHub Actions" (not "Deploy from a branch")
    - Save
 
-2. **Set Repository Secret (Optional)**
-   - Go to repository Settings → Secrets and variables → Actions
-   - Add secret: `VITE_API_BASE` = `https://your-railway-backend-url.railway.app`
-   - If not set, workflow will use default placeholder (update after backend is deployed)
-
-3. **Deploy**
+2. **Deploy**
    - Push to `main` branch (workflow auto-runs on frontend changes)
    - Or manually trigger: Actions → "Deploy Frontend to GitHub Pages" → Run workflow
    - Wait for deployment to complete
    - Your site will be at: `https://shrey007.github.io/dev-highlevel`
 
-4. **Update CORS_ORIGINS in Railway**
+3. **Update CORS_ORIGINS in Railway**
    - After frontend is deployed, update Railway env var:
      ```
-     CORS_ORIGINS=https://shrey007.github.io/dev-highlevel
+     CORS_ORIGINS=https://shrey007.github.io
      ```
    - Redeploy backend if needed
 
@@ -158,7 +163,6 @@ npm run dev
 1. **Update Frontend API URL** (if not using secret):
    - Edit `.github/workflows/deploy-frontend.yml`
    - Update `VITE_API_BASE` in the build step
-   - Or set it as a repository secret for easier updates
 
 2. **Verify CORS**
    - Check browser console for CORS errors

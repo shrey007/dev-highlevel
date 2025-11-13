@@ -21,3 +21,22 @@ async def chat_endpoint(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.get("/conversation/{session_id}")
+async def get_conversation(session_id: str):
+    """Get conversation history and user profile for a session"""
+    try:
+        orchestrator = Orchestrator()
+        profile = orchestrator.memory.get_profile(session_id)
+        summary = orchestrator.memory.get_conversation_summary(session_id)
+        turns = orchestrator.memory.get_last_turns(session_id)
+        
+        return {
+            "session_id": session_id,
+            "profile": profile,
+            "summary": summary,
+            "turns": turns,
+            "exists": bool(turns or profile or summary)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
