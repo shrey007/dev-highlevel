@@ -408,7 +408,9 @@ YOU ARE GPT-4O-MINI - YOU ARE SMART ENOUGH TO:
                 if not message_obj.tool_calls:
                     break
                 
-                for tool_call in message_obj.tool_calls:
+                # PARALLEL TOOL EXECUTION - Execute all tools concurrently!
+                async def execute_single_tool(tool_call):
+                    """Execute a single tool call and return result with tool_call_id"""
                     tool_name = tool_call.function.name
                     tool_args = json.loads(tool_call.function.arguments)
                     
@@ -421,21 +423,19 @@ YOU ARE GPT-4O-MINI - YOU ARE SMART ENOUGH TO:
                     # Slot validation
                     validation_error = self._validate_slots(tool_name, tool_args, profile, summary)
                     if validation_error:
-                        action = Action(tool=tool_name, input=tool_args, error=validation_error)
-                        actions.append(action)
-                        messages.append({
-                            "role": "tool",
+                        return {
                             "tool_call_id": tool_call.id,
-                            "content": json.dumps({"error": validation_error})
-                        })
-                        continue
+                            "tool_name": tool_name,
+                            "tool_args": tool_args,
+                            "action": Action(tool=tool_name, input=tool_args, error=validation_error),
+                            "result": {"error": validation_error}
+                        }
                     
                     # Create action object for this tool call
                     action = Action(tool=tool_name, input=tool_args)
                     
                     try:
                         if tool_name in ["search_flights", "search_hotels", "suggest_activities"]:
-                            
                             @retry(
                                 stop=stop_after_attempt(3),
                                 wait=wait_exponential(multiplier=0.5, min=0.5, max=2.0),
@@ -519,22 +519,34 @@ YOU ARE GPT-4O-MINI - YOU ARE SMART ENOUGH TO:
                             result = {"error": "Unknown tool"}
                             action.output = result
                         
-                        # Always append action after setting output
-                        actions.append(action)
-                        
-                        messages.append({
-                            "role": "tool",
+                        return {
                             "tool_call_id": tool_call.id,
-                            "content": json.dumps(result)
-                        })
+                            "tool_name": tool_name,
+                            "tool_args": tool_args,
+                            "action": action,
+                            "result": result
+                        }
                     except Exception as e:
                         action.error = str(e)
-                        actions.append(action)
-                        messages.append({
-                            "role": "tool",
+                        return {
                             "tool_call_id": tool_call.id,
-                            "content": json.dumps({"error": str(e)})
-                        })
+                            "tool_name": tool_name,
+                            "tool_args": tool_args,
+                            "action": action,
+                            "result": {"error": str(e)}
+                        }
+                
+                # Execute ALL tools in parallel using asyncio.gather
+                tool_results = await asyncio.gather(*[execute_single_tool(tc) for tc in message_obj.tool_calls])
+                
+                # Process results in order (matching original tool_call order)
+                for result_data in tool_results:
+                    actions.append(result_data["action"])
+                    messages.append({
+                        "role": "tool",
+                        "tool_call_id": result_data["tool_call_id"],
+                        "content": json.dumps(result_data["result"])
+                    })
         except Exception as e:
             return {
                 "reply": f"Error processing request: {str(e)}",
