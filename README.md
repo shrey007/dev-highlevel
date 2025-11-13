@@ -17,10 +17,10 @@ flowchart TD
   U[User] --> FE[Vue + Tailwind Chat UI]
   FE <-->|HTTPS| API[(FastAPI Orchestrator)]
   subgraph Orchestrator
-    OAI[OpenAI LLM\nfunction-calling]
+    OAI[OpenAI LLM (function-calling)]
     TOOLS[(Tool Registry)]
-    MEM[Memory Service\nSQLite]
-    MOCKS[Mock Data\nflights/hotels/activities JSON]
+    MEM[Memory Service: SQLite]
+    MOCKS[Mock Data: flights/hotels/activities JSON]
   end
   API --> OAI
   OAI <--> TOOLS
@@ -61,7 +61,7 @@ cd backend
 2. Create virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate 
 ```
 
 3. Install dependencies:
