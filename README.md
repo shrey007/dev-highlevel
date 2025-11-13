@@ -63,11 +63,8 @@ pip install -r requirements.txt
 ```bash
 # Create .env file and add:
 OPENAI_API_KEY=your_key_here  # Optional: If set, will be used as default. Users can override with their own key.
-ALLOW_CLIENT_KEYS=true
-MEMORY_BACKEND=sqlite
-SQLITE_PATH=data/app.db
 OPENAI_MODEL=gpt-4o-mini
-CORS_ORIGINS=http://localhost:5173
+CORS_ORIGINS=""
 ```
 
 5. Run server:
@@ -101,21 +98,71 @@ npm run dev
 
 ### Railway (Backend)
 
-1. Connect GitHub repo to Railway
-2. Set root directory to `backend/`
-3. Add environment variables (see `.env.example`)
-4. Add volume mount at `/data` for SQLite persistence
-5. Deploy
+1. **Create Railway Account & Project**
+   - Go to [railway.app](https://railway.app) and sign in with GitHub
+   - Click "New Project" → "Deploy from GitHub repo"
+   - Select your `shrey007/dev-highlevel` repository
+
+2. **Configure Service**
+   - Railway will auto-detect the backend
+   - Set **Root Directory** to `backend/` in service settings
+   - Railway will use `railway.json` for build configuration
+
+3. **Add Environment Variables**
+   - Go to your service → Variables tab
+   - Add the following:
+     ```
+     OPENAI_API_KEY=your_openai_api_key_here
+     OPENAI_MODEL=gpt-4o-mini
+     CORS_ORIGINS=https://shrey007.github.io/dev-highlevel
+     ```
+   - **Important**: Replace `CORS_ORIGINS` with your actual GitHub Pages URL after frontend is deployed
+
+4. **Add Volume for Database (Optional)**
+   - Go to service → Volumes tab
+   - Add volume mount: `/app/data` → `/data` (or mount at `/app/data`)
+   - This ensures SQLite database persists across deployments
+   - Database file will be stored at `data/app.db`
+
+5. **Deploy**
+   - Railway will automatically deploy on push to `main`
+   - Get your backend URL from the service dashboard (e.g., `https://your-app.railway.app`)
 
 ### GitHub Pages (Frontend)
 
-1. Build frontend:
-```bash
-cd frontend
-npm run build
-```
+1. **Enable GitHub Pages**
+   - Go to repository Settings → Pages
+   - Source: Select "GitHub Actions" (not "Deploy from a branch")
+   - Save
 
-2. Deploy `dist/` folder to GitHub Pages
+2. **Set Repository Secret (Optional)**
+   - Go to repository Settings → Secrets and variables → Actions
+   - Add secret: `VITE_API_BASE` = `https://your-railway-backend-url.railway.app`
+   - If not set, workflow will use default placeholder (update after backend is deployed)
+
+3. **Deploy**
+   - Push to `main` branch (workflow auto-runs on frontend changes)
+   - Or manually trigger: Actions → "Deploy Frontend to GitHub Pages" → Run workflow
+   - Wait for deployment to complete
+   - Your site will be at: `https://shrey007.github.io/dev-highlevel`
+
+4. **Update CORS_ORIGINS in Railway**
+   - After frontend is deployed, update Railway env var:
+     ```
+     CORS_ORIGINS=https://shrey007.github.io/dev-highlevel
+     ```
+   - Redeploy backend if needed
+
+### Post-Deployment Configuration
+
+1. **Update Frontend API URL** (if not using secret):
+   - Edit `.github/workflows/deploy-frontend.yml`
+   - Update `VITE_API_BASE` in the build step
+   - Or set it as a repository secret for easier updates
+
+2. **Verify CORS**
+   - Check browser console for CORS errors
+   - Ensure Railway `CORS_ORIGINS` matches your GitHub Pages URL exactly
 
 ## Usage
 
