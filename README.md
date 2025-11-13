@@ -185,4 +185,3 @@ npm run dev
 - Backend: FastAPI, Python, SQLite, OpenAI API
 - Frontend: Vue.js, TailwindCSS, Vite
 - Hosting: Railway (backend), GitHub Pages (frontend)
-
