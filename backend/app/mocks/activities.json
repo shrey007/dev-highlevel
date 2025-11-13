@@ -1,0 +1,1239 @@
+[
+  {
+    "city": "Delhi",
+    "name": "Red Fort & Chandni Chowk Heritage Walk",
+    "description": "Explore the iconic Red Fort and wander through the bustling lanes of Chandni Chowk, sampling street food and experiencing Old Delhi's charm.",
+    "category": "Cultural",
+    "duration": "4 hours",
+    "price": 1500,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Delhi",
+    "name": "Qutub Minar & Humayun's Tomb Tour",
+    "description": "Visit two UNESCO World Heritage Sites showcasing Mughal and Afghan architecture.",
+    "category": "Cultural",
+    "duration": "5 hours",
+    "price": 1800,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Delhi",
+    "name": "Street Food Tour in Paranthe Wali Gali",
+    "description": "Taste authentic Delhi street food including paranthas, chaat, and kulfi.",
+    "category": "Food",
+    "duration": "3 hours",
+    "price": 1200,
+    "currency": "INR",
+    "tags": [
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "name": "Gateway of India & Marine Drive Evening Walk",
+    "description": "Visit the iconic Gateway of India and enjoy sunset at Marine Drive, the Queen's Necklace.",
+    "category": "Cultural",
+    "duration": "3 hours",
+    "price": 1000,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "beaches",
+      "culture"
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "name": "Elephanta Caves Excursion",
+    "description": "Ferry ride to Elephanta Island to explore ancient rock-cut temples and sculptures.",
+    "category": "Cultural",
+    "duration": "6 hours",
+    "price": 2000,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "adventure",
+      "culture"
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "name": "Bollywood Studio Tour",
+    "description": "Behind-the-scenes tour of a Bollywood film studio with live set visits.",
+    "category": "Entertainment",
+    "duration": "4 hours",
+    "price": 2500,
+    "currency": "INR",
+    "tags": [
+      "entertainment",
+      "culture"
+    ]
+  },
+  {
+    "city": "Bangalore",
+    "name": "Lalbagh Botanical Garden & Cubbon Park Walk",
+    "description": "Explore the beautiful 240-acre botanical garden with over 1,800 species of plants.",
+    "category": "Nature",
+    "duration": "3 hours",
+    "price": 500,
+    "currency": "INR",
+    "tags": [
+      "nature",
+      "photography"
+    ]
+  },
+  {
+    "city": "Bangalore",
+    "name": "Bangalore Palace Tour",
+    "description": "Visit the Tudor-style palace inspired by Windsor Castle with beautiful architecture.",
+    "category": "Cultural",
+    "duration": "2 hours",
+    "price": 1200,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "architecture"
+    ]
+  },
+  {
+    "city": "Bangalore",
+    "name": "Microbrewery Pub Crawl",
+    "description": "Visit 3-4 famous microbreweries and taste craft beers.",
+    "category": "Food",
+    "duration": "4 hours",
+    "price": 2000,
+    "currency": "INR",
+    "tags": [
+      "food",
+      "nightlife"
+    ]
+  },
+  {
+    "city": "Goa",
+    "name": "Beach Hopping: Baga, Calangute & Anjuna",
+    "description": "Explore Goa's famous beaches with water sports options and beachside shacks.",
+    "category": "Beach",
+    "duration": "8 hours",
+    "price": 3000,
+    "currency": "INR",
+    "tags": [
+      "beaches",
+      "adventure",
+      "swimming"
+    ]
+  },
+  {
+    "city": "Goa",
+    "name": "Old Goa Churches & Spice Plantation Tour",
+    "description": "Visit UNESCO World Heritage churches and a traditional spice plantation.",
+    "category": "Cultural",
+    "duration": "6 hours",
+    "price": 2500,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "nature",
+      "culture"
+    ]
+  },
+  {
+    "city": "Goa",
+    "name": "Sunset Cruise on Mandovi River",
+    "description": "Enjoy live music, dinner, and stunning sunset views on a river cruise.",
+    "category": "Entertainment",
+    "duration": "3 hours",
+    "price": 1800,
+    "currency": "INR",
+    "tags": [
+      "music",
+      "entertainment",
+      "nature"
+    ]
+  },
+  {
+    "city": "Jaipur",
+    "name": "Amber Fort & Elephant Ride",
+    "description": "Explore the magnificent Amber Fort with an optional elephant ride to the entrance.",
+    "category": "Cultural",
+    "duration": "4 hours",
+    "price": 2200,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "architecture",
+      "adventure"
+    ]
+  },
+  {
+    "city": "Jaipur",
+    "name": "Hawa Mahal & City Palace Tour",
+    "description": "Visit the iconic Palace of Winds and the royal City Palace complex.",
+    "category": "Cultural",
+    "duration": "3 hours",
+    "price": 1500,
+    "currency": "INR",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Jaipur",
+    "name": "Traditional Rajasthani Dinner with Folk Dance",
+    "description": "Enjoy authentic Rajasthani cuisine with live folk music and dance performance.",
+    "category": "Food",
+    "duration": "3 hours",
+    "price": 1800,
+    "currency": "INR",
+    "tags": [
+      "food",
+      "music",
+      "culture"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Burj Khalifa At The Top Sky (148th floor)",
+    "description": "Visit the world's tallest building and enjoy panoramic views from the 148th floor.",
+    "category": "Sightseeing",
+    "duration": "2 hours",
+    "price": 150,
+    "currency": "USD",
+    "tags": [
+      "architecture",
+      "photography"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Desert Safari with BBQ Dinner",
+    "description": "Dune bashing, camel ride, sandboarding, and traditional BBQ dinner under the stars.",
+    "category": "Adventure",
+    "duration": "6 hours",
+    "price": 85,
+    "currency": "USD",
+    "tags": [
+      "adventure",
+      "nature",
+      "food"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Dubai Marina Yacht Cruise",
+    "description": "Luxury yacht cruise along Dubai Marina with swimming and refreshments.",
+    "category": "Entertainment",
+    "duration": "3 hours",
+    "price": 120,
+    "currency": "USD",
+    "tags": [
+      "swimming",
+      "luxury",
+      "nature"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Gold Souk & Spice Souk Shopping Tour",
+    "description": "Explore traditional markets in Old Dubai with a guided shopping experience.",
+    "category": "Shopping",
+    "duration": "3 hours",
+    "price": 45,
+    "currency": "USD",
+    "tags": [
+      "shopping",
+      "culture",
+      "history"
+    ]
+  },
+  {
+    "city": "Abu Dhabi",
+    "name": "Sheikh Zayed Grand Mosque Tour",
+    "description": "Visit one of the world's largest mosques with stunning white marble architecture.",
+    "category": "Cultural",
+    "duration": "2 hours",
+    "price": 35,
+    "currency": "USD",
+    "tags": [
+      "architecture",
+      "culture",
+      "photography"
+    ]
+  },
+  {
+    "city": "Abu Dhabi",
+    "name": "Ferrari World Theme Park",
+    "description": "Experience the world's fastest roller coaster and Ferrari-themed attractions.",
+    "category": "Entertainment",
+    "duration": "6 hours",
+    "price": 95,
+    "currency": "USD",
+    "tags": [
+      "adventure",
+      "entertainment"
+    ]
+  },
+  {
+    "city": "Abu Dhabi",
+    "name": "Louvre Abu Dhabi Museum",
+    "description": "Explore art and artifacts from around the world in this architectural masterpiece.",
+    "category": "Cultural",
+    "duration": "3 hours",
+    "price": 18,
+    "currency": "USD",
+    "tags": [
+      "art",
+      "culture",
+      "architecture"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Gardens by the Bay & Supertree Grove",
+    "description": "Explore futuristic gardens with Cloud Forest and Flower Dome conservatories.",
+    "category": "Nature",
+    "duration": "4 hours",
+    "price": 45,
+    "currency": "USD",
+    "tags": [
+      "nature",
+      "architecture",
+      "photography"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Sentosa Island Adventure",
+    "description": "Universal Studios, S.E.A. Aquarium, and beach activities on Sentosa Island.",
+    "category": "Entertainment",
+    "duration": "8 hours",
+    "price": 95,
+    "currency": "USD",
+    "tags": [
+      "adventure",
+      "beaches",
+      "entertainment"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Hawker Center Food Tour",
+    "description": "Taste Singapore's best street food across famous hawker centers with a local guide.",
+    "category": "Food",
+    "duration": "3 hours",
+    "price": 55,
+    "currency": "USD",
+    "tags": [
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Marina Bay Skyline River Cruise",
+    "description": "Evening cruise with views of Marina Bay Sands, Merlion, and Singapore skyline.",
+    "category": "Sightseeing",
+    "duration": "2 hours",
+    "price": 35,
+    "currency": "USD",
+    "tags": [
+      "photography",
+      "nature"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Grand Palace & Wat Phra Kaew Temple Tour",
+    "description": "Visit Bangkok's most sacred temple and the former royal residence.",
+    "category": "Cultural",
+    "duration": "4 hours",
+    "price": 35,
+    "currency": "USD",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Floating Market & Long-tail Boat Ride",
+    "description": "Experience traditional floating markets and canal tour by long-tail boat.",
+    "category": "Cultural",
+    "duration": "5 hours",
+    "price": 45,
+    "currency": "USD",
+    "tags": [
+      "culture",
+      "food",
+      "nature"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Thai Cooking Class with Market Tour",
+    "description": "Learn to cook authentic Thai dishes with a market visit and recipe book.",
+    "category": "Food",
+    "duration": "4 hours",
+    "price": 50,
+    "currency": "USD",
+    "tags": [
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Khao San Road Nightlife & Street Food Tour",
+    "description": "Explore Bangkok's famous backpacker street with food, drinks, and nightlife.",
+    "category": "Entertainment",
+    "duration": "4 hours",
+    "price": 40,
+    "currency": "USD",
+    "tags": [
+      "food",
+      "nightlife",
+      "culture"
+    ]
+  },
+  {
+    "city": "Phuket",
+    "name": "James Bond Island & Phang Nga Bay Tour",
+    "description": "Speedboat tour to the famous James Bond Island with kayaking through caves.",
+    "category": "Adventure",
+    "duration": "8 hours",
+    "price": 85,
+    "currency": "USD",
+    "tags": [
+      "adventure",
+      "nature",
+      "beaches"
+    ]
+  },
+  {
+    "city": "Phuket",
+    "name": "Phi Phi Islands Snorkeling Tour",
+    "description": "Full-day speedboat tour to Phi Phi Islands with snorkeling and beach time.",
+    "category": "Adventure",
+    "duration": "9 hours",
+    "price": 95,
+    "currency": "USD",
+    "tags": [
+      "swimming",
+      "beaches",
+      "adventure",
+      "nature"
+    ]
+  },
+  {
+    "city": "Phuket",
+    "name": "Phuket FantaSea Cultural Show",
+    "description": "Las Vegas-style cultural show with buffet dinner and carnival village.",
+    "category": "Entertainment",
+    "duration": "5 hours",
+    "price": 70,
+    "currency": "USD",
+    "tags": [
+      "culture",
+      "entertainment",
+      "food"
+    ]
+  },
+  {
+    "city": "Chiang Mai",
+    "name": "Elephant Sanctuary Ethical Experience",
+    "description": "Feed, bathe, and walk with rescued elephants in their natural habitat.",
+    "category": "Nature",
+    "duration": "6 hours",
+    "price": 75,
+    "currency": "USD",
+    "tags": [
+      "nature",
+      "adventure"
+    ]
+  },
+  {
+    "city": "Chiang Mai",
+    "name": "Doi Suthep Temple & City Temples Tour",
+    "description": "Visit the golden mountain temple and explore Chiang Mai's ancient temples.",
+    "category": "Cultural",
+    "duration": "5 hours",
+    "price": 40,
+    "currency": "USD",
+    "tags": [
+      "culture",
+      "history",
+      "architecture"
+    ]
+  },
+  {
+    "city": "Chiang Mai",
+    "name": "Night Bazaar & Street Market Shopping",
+    "description": "Explore the famous night market with handicrafts, street food, and local products.",
+    "category": "Shopping",
+    "duration": "3 hours",
+    "price": 25,
+    "currency": "USD",
+    "tags": [
+      "shopping",
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Jakarta",
+    "name": "Old Town (Kota Tua) Heritage Walking Tour",
+    "description": "Explore Jakarta's Dutch colonial heritage with museums and historic buildings.",
+    "category": "Cultural",
+    "duration": "4 hours",
+    "price": 30,
+    "currency": "USD",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Jakarta",
+    "name": "Thousand Islands Day Trip",
+    "description": "Speedboat to nearby islands for snorkeling, swimming, and beach relaxation.",
+    "category": "Beach",
+    "duration": "8 hours",
+    "price": 65,
+    "currency": "USD",
+    "tags": [
+      "beaches",
+      "swimming",
+      "nature"
+    ]
+  },
+  {
+    "city": "Jakarta",
+    "name": "Street Food Night Tour in Jalan Sabang",
+    "description": "Sample authentic Indonesian street food with a local guide.",
+    "category": "Food",
+    "duration": "3 hours",
+    "price": 35,
+    "currency": "USD",
+    "tags": [
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Ubud Rice Terraces & Temple Tour",
+    "description": "Visit Tegalalang Rice Terraces, Monkey Forest, and Tirta Empul Water Temple.",
+    "category": "Cultural",
+    "duration": "8 hours",
+    "price": 55,
+    "currency": "USD",
+    "tags": [
+      "nature",
+      "culture",
+      "photography"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Sunrise Trek to Mount Batur",
+    "description": "Early morning trek to active volcano summit for spectacular sunrise views.",
+    "category": "Adventure",
+    "duration": "7 hours",
+    "price": 70,
+    "currency": "USD",
+    "tags": [
+      "adventure",
+      "nature",
+      "photography"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Nusa Penida Island Day Trip",
+    "description": "Speedboat to Nusa Penida to see Kelingking Beach, Angel's Billabong, and Broken Beach.",
+    "category": "Beach",
+    "duration": "10 hours",
+    "price": 85,
+    "currency": "USD",
+    "tags": [
+      "beaches",
+      "adventure",
+      "photography",
+      "swimming"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Balinese Spa & Wellness Package",
+    "description": "Traditional Balinese massage, flower bath, and herbal treatments.",
+    "category": "Wellness",
+    "duration": "3 hours",
+    "price": 50,
+    "currency": "USD",
+    "tags": [
+      "relaxation",
+      "wellness"
+    ]
+  },
+  {
+    "city": "Surabaya",
+    "name": "Mount Bromo Sunrise Tour",
+    "description": "Jeep tour to Mount Bromo for sunrise views and horseback ride to the crater.",
+    "category": "Adventure",
+    "duration": "12 hours",
+    "price": 80,
+    "currency": "USD",
+    "tags": [
+      "adventure",
+      "nature",
+      "photography"
+    ]
+  },
+  {
+    "city": "Surabaya",
+    "name": "Surabaya City Heritage Tour",
+    "description": "Explore colonial architecture, House of Sampoerna, and Arab Quarter.",
+    "category": "Cultural",
+    "duration": "4 hours",
+    "price": 35,
+    "currency": "USD",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Sydney Opera House & Harbour Bridge Climb",
+    "description": "Guided tour of Opera House followed by the iconic Bridge Climb experience.",
+    "category": "Adventure",
+    "duration": "5 hours",
+    "price": 350,
+    "currency": "AUD",
+    "tags": [
+      "adventure",
+      "architecture",
+      "photography"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Bondi Beach & Coastal Walk",
+    "description": "Relax at famous Bondi Beach and walk the scenic coastal path to Coogee.",
+    "category": "Beach",
+    "duration": "4 hours",
+    "price": 50,
+    "currency": "AUD",
+    "tags": [
+      "beaches",
+      "nature",
+      "swimming"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Blue Mountains Day Trip",
+    "description": "Visit Three Sisters, scenic railway, and bushland walks in the Blue Mountains.",
+    "category": "Nature",
+    "duration": "10 hours",
+    "price": 150,
+    "currency": "AUD",
+    "tags": [
+      "nature",
+      "adventure",
+      "photography"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Sydney Harbour Dinner Cruise",
+    "description": "3-course dinner cruise with views of Opera House and Harbour Bridge at night.",
+    "category": "Entertainment",
+    "duration": "3 hours",
+    "price": 180,
+    "currency": "AUD",
+    "tags": [
+      "food",
+      "nature",
+      "entertainment"
+    ]
+  },
+  {
+    "city": "Melbourne",
+    "name": "Great Ocean Road Full Day Tour",
+    "description": "Scenic drive to see the Twelve Apostles and coastal rainforest.",
+    "category": "Nature",
+    "duration": "12 hours",
+    "price": 140,
+    "currency": "AUD",
+    "tags": [
+      "nature",
+      "photography",
+      "beaches"
+    ]
+  },
+  {
+    "city": "Melbourne",
+    "name": "Street Art & Laneways Walking Tour",
+    "description": "Explore Melbourne's famous street art and hidden laneways with coffee stops.",
+    "category": "Cultural",
+    "duration": "3 hours",
+    "price": 55,
+    "currency": "AUD",
+    "tags": [
+      "art",
+      "culture",
+      "photography"
+    ]
+  },
+  {
+    "city": "Melbourne",
+    "name": "Phillip Island Penguin Parade",
+    "description": "Watch hundreds of little penguins return to shore at sunset.",
+    "category": "Nature",
+    "duration": "8 hours",
+    "price": 130,
+    "currency": "AUD",
+    "tags": [
+      "nature",
+      "wildlife"
+    ]
+  },
+  {
+    "city": "Brisbane",
+    "name": "Lone Pine Koala Sanctuary",
+    "description": "Hold a koala, feed kangaroos, and see Australian wildlife up close.",
+    "category": "Nature",
+    "duration": "4 hours",
+    "price": 75,
+    "currency": "AUD",
+    "tags": [
+      "nature",
+      "wildlife"
+    ]
+  },
+  {
+    "city": "Brisbane",
+    "name": "Brisbane River Cruise & South Bank Parklands",
+    "description": "River cruise followed by exploring South Bank's beaches and cultural precinct.",
+    "category": "Sightseeing",
+    "duration": "4 hours",
+    "price": 60,
+    "currency": "AUD",
+    "tags": [
+      "nature",
+      "culture"
+    ]
+  },
+  {
+    "city": "Perth",
+    "name": "Rottnest Island & Quokka Encounter",
+    "description": "Ferry to Rottnest Island for cycling, beaches, and meeting the famous quokkas.",
+    "category": "Nature",
+    "duration": "8 hours",
+    "price": 120,
+    "currency": "AUD",
+    "tags": [
+      "nature",
+      "beaches",
+      "wildlife",
+      "photography"
+    ]
+  },
+  {
+    "city": "Perth",
+    "name": "Swan Valley Wine Tour",
+    "description": "Visit boutique wineries, breweries, and chocolate factory in Swan Valley.",
+    "category": "Food",
+    "duration": "6 hours",
+    "price": 110,
+    "currency": "AUD",
+    "tags": [
+      "food",
+      "wine"
+    ]
+  },
+  {
+    "city": "Gold Coast",
+    "name": "Surfers Paradise Beach & Theme Parks",
+    "description": "Beach time and choice of Movie World, Sea World, or Dreamworld theme park.",
+    "category": "Entertainment",
+    "duration": "8 hours",
+    "price": 95,
+    "currency": "AUD",
+    "tags": [
+      "beaches",
+      "adventure",
+      "entertainment"
+    ]
+  },
+  {
+    "city": "Gold Coast",
+    "name": "Springbrook National Park Rainforest Walk",
+    "description": "Explore ancient rainforest, waterfalls, and natural rock pools.",
+    "category": "Nature",
+    "duration": "5 hours",
+    "price": 85,
+    "currency": "AUD",
+    "tags": [
+      "nature",
+      "adventure"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "British Museum & Tower of London Tour",
+    "description": "Explore world-famous museums and see the Crown Jewels at the Tower.",
+    "category": "Cultural",
+    "duration": "6 hours",
+    "price": 75,
+    "currency": "GBP",
+    "tags": [
+      "history",
+      "culture",
+      "architecture"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "Thames River Cruise & Westminster Walking Tour",
+    "description": "River cruise followed by walking tour of Big Ben, Parliament, and Westminster Abbey.",
+    "category": "Sightseeing",
+    "duration": "4 hours",
+    "price": 55,
+    "currency": "GBP",
+    "tags": [
+      "history",
+      "architecture",
+      "photography"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "West End Theatre Show with Dinner",
+    "description": "Premium seats to a West End musical with pre-theatre dinner.",
+    "category": "Entertainment",
+    "duration": "5 hours",
+    "price": 120,
+    "currency": "GBP",
+    "tags": [
+      "entertainment",
+      "music",
+      "food"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "Harry Potter Studio Tour",
+    "description": "Behind-the-scenes tour of actual film sets, props, and costumes.",
+    "category": "Entertainment",
+    "duration": "7 hours",
+    "price": 95,
+    "currency": "GBP",
+    "tags": [
+      "entertainment",
+      "culture"
+    ]
+  },
+  {
+    "city": "Manchester",
+    "name": "Old Trafford Stadium Tour",
+    "description": "Tour Manchester United's legendary stadium and museum.",
+    "category": "Sports",
+    "duration": "2 hours",
+    "price": 30,
+    "currency": "GBP",
+    "tags": [
+      "sports",
+      "history"
+    ]
+  },
+  {
+    "city": "Manchester",
+    "name": "Northern Quarter Street Art & Music Scene Tour",
+    "description": "Explore Manchester's creative quarter with street art and music heritage sites.",
+    "category": "Cultural",
+    "duration": "3 hours",
+    "price": 25,
+    "currency": "GBP",
+    "tags": [
+      "art",
+      "music",
+      "culture"
+    ]
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Edinburgh Castle & Royal Mile Walking Tour",
+    "description": "Guided tour of Edinburgh Castle and historic Royal Mile with whisky tasting.",
+    "category": "Cultural",
+    "duration": "4 hours",
+    "price": 65,
+    "currency": "GBP",
+    "tags": [
+      "history",
+      "culture",
+      "architecture"
+    ]
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Arthur's Seat Hike & Holyrood Palace",
+    "description": "Hike the extinct volcano for panoramic city views and visit the royal palace.",
+    "category": "Nature",
+    "duration": "5 hours",
+    "price": 45,
+    "currency": "GBP",
+    "tags": [
+      "nature",
+      "adventure",
+      "history"
+    ]
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Ghost Tour & Underground Vaults",
+    "description": "Evening ghost tour through Edinburgh's haunted underground vaults.",
+    "category": "Entertainment",
+    "duration": "2 hours",
+    "price": 20,
+    "currency": "GBP",
+    "tags": [
+      "history",
+      "entertainment"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Eiffel Tower & Seine River Cruise",
+    "description": "Skip-the-line access to Eiffel Tower followed by champagne river cruise.",
+    "category": "Sightseeing",
+    "duration": "4 hours",
+    "price": 85,
+    "currency": "EUR",
+    "tags": [
+      "architecture",
+      "photography",
+      "nature"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Louvre Museum & Mus\u00e9e d'Orsay Tour",
+    "description": "Guided tour of two world-famous art museums with skip-the-line access.",
+    "category": "Cultural",
+    "duration": "6 hours",
+    "price": 95,
+    "currency": "EUR",
+    "tags": [
+      "art",
+      "culture",
+      "history"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Montmartre & Sacr\u00e9-C\u0153ur Evening Tour",
+    "description": "Explore the artistic quarter, visit Sacr\u00e9-C\u0153ur, and enjoy cabaret show.",
+    "category": "Cultural",
+    "duration": "5 hours",
+    "price": 75,
+    "currency": "EUR",
+    "tags": [
+      "art",
+      "culture",
+      "entertainment",
+      "music"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Versailles Palace Day Trip",
+    "description": "Full-day tour of the Palace of Versailles with gardens and Marie Antoinette's Estate.",
+    "category": "Cultural",
+    "duration": "8 hours",
+    "price": 110,
+    "currency": "EUR",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Nice",
+    "name": "French Riviera Coastline Tour",
+    "description": "Drive along the stunning coastline visiting Monaco, Eze, and hilltop villages.",
+    "category": "Sightseeing",
+    "duration": "8 hours",
+    "price": 120,
+    "currency": "EUR",
+    "tags": [
+      "nature",
+      "photography",
+      "beaches"
+    ]
+  },
+  {
+    "city": "Nice",
+    "name": "Old Town & Promenade des Anglais Bike Tour",
+    "description": "Cycle through Old Nice and along the famous seafront promenade.",
+    "category": "Sightseeing",
+    "duration": "3 hours",
+    "price": 40,
+    "currency": "EUR",
+    "tags": [
+      "culture",
+      "beaches",
+      "nature"
+    ]
+  },
+  {
+    "city": "Lyon",
+    "name": "Old Lyon & Traboules Walking Tour",
+    "description": "Explore Renaissance architecture and secret passageways of Old Lyon.",
+    "category": "Cultural",
+    "duration": "3 hours",
+    "price": 35,
+    "currency": "EUR",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Lyon",
+    "name": "Food & Wine Tasting Tour",
+    "description": "Sample Lyon's famous cuisine and local wines with a food expert.",
+    "category": "Food",
+    "duration": "4 hours",
+    "price": 85,
+    "currency": "EUR",
+    "tags": [
+      "food",
+      "wine",
+      "culture"
+    ]
+  },
+  {
+    "city": "Zurich",
+    "name": "Swiss Alps Day Trip to Jungfraujoch",
+    "description": "Train journey to the 'Top of Europe' with glacier views and ice palace.",
+    "category": "Nature",
+    "duration": "10 hours",
+    "price": 220,
+    "currency": "CHF",
+    "tags": [
+      "nature",
+      "adventure",
+      "photography"
+    ]
+  },
+  {
+    "city": "Zurich",
+    "name": "Lake Zurich Cruise & Old Town Walk",
+    "description": "Scenic lake cruise followed by exploring Zurich's medieval old town.",
+    "category": "Sightseeing",
+    "duration": "4 hours",
+    "price": 65,
+    "currency": "CHF",
+    "tags": [
+      "nature",
+      "history",
+      "culture"
+    ]
+  },
+  {
+    "city": "Zurich",
+    "name": "Swiss Chocolate Making Workshop",
+    "description": "Learn to make Swiss chocolate with hands-on workshop and tasting.",
+    "category": "Food",
+    "duration": "2 hours",
+    "price": 80,
+    "currency": "CHF",
+    "tags": [
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Geneva",
+    "name": "CERN & Science Museum Tour",
+    "description": "Visit the world's largest particle physics laboratory with guided tour.",
+    "category": "Educational",
+    "duration": "4 hours",
+    "price": 45,
+    "currency": "CHF",
+    "tags": [
+      "science",
+      "education"
+    ]
+  },
+  {
+    "city": "Geneva",
+    "name": "Lake Geneva Cruise & Chillon Castle",
+    "description": "Scenic cruise to the medieval lakeside castle made famous by Lord Byron.",
+    "category": "Cultural",
+    "duration": "6 hours",
+    "price": 90,
+    "currency": "CHF",
+    "tags": [
+      "history",
+      "architecture",
+      "nature"
+    ]
+  },
+  {
+    "city": "Lucerne",
+    "name": "Mount Pilatus Golden Round Trip",
+    "description": "Cable car, cogwheel train, and boat journey with stunning Alpine views.",
+    "category": "Nature",
+    "duration": "8 hours",
+    "price": 150,
+    "currency": "CHF",
+    "tags": [
+      "nature",
+      "adventure",
+      "photography"
+    ]
+  },
+  {
+    "city": "Lucerne",
+    "name": "Chapel Bridge & Old Town Walking Tour",
+    "description": "Explore the iconic wooden bridge and medieval old town with local guide.",
+    "category": "Cultural",
+    "duration": "2 hours",
+    "price": 35,
+    "currency": "CHF",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  },
+  {
+    "city": "Berlin",
+    "name": "Berlin Wall & Cold War History Tour",
+    "description": "Visit East Side Gallery, Checkpoint Charlie, and Brandenburg Gate with expert guide.",
+    "category": "Cultural",
+    "duration": "4 hours",
+    "price": 40,
+    "currency": "EUR",
+    "tags": [
+      "history",
+      "culture"
+    ]
+  },
+  {
+    "city": "Berlin",
+    "name": "Berlin Craft Beer Pub Crawl",
+    "description": "Visit 4-5 craft beer bars and breweries in trendy neighborhoods.",
+    "category": "Entertainment",
+    "duration": "4 hours",
+    "price": 50,
+    "currency": "EUR",
+    "tags": [
+      "food",
+      "nightlife"
+    ]
+  },
+  {
+    "city": "Berlin",
+    "name": "Museum Island Day Pass",
+    "description": "Access to 5 world-class museums on UNESCO World Heritage Museum Island.",
+    "category": "Cultural",
+    "duration": "6 hours",
+    "price": 22,
+    "currency": "EUR",
+    "tags": [
+      "art",
+      "history",
+      "culture"
+    ]
+  },
+  {
+    "city": "Munich",
+    "name": "Neuschwanstein Castle Day Trip",
+    "description": "Visit King Ludwig's fairy-tale castle in the Bavarian Alps.",
+    "category": "Cultural",
+    "duration": "10 hours",
+    "price": 65,
+    "currency": "EUR",
+    "tags": [
+      "history",
+      "architecture",
+      "photography"
+    ]
+  },
+  {
+    "city": "Munich",
+    "name": "Beer Hall & Brewery Tour with Lunch",
+    "description": "Experience authentic Bavarian beer culture at Hofbr\u00e4uhaus and local breweries.",
+    "category": "Food",
+    "duration": "4 hours",
+    "price": 55,
+    "currency": "EUR",
+    "tags": [
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "city": "Munich",
+    "name": "English Garden & Surfing Wave Tour",
+    "description": "Explore one of the world's largest urban parks and watch river surfers.",
+    "category": "Nature",
+    "duration": "3 hours",
+    "price": 30,
+    "currency": "EUR",
+    "tags": [
+      "nature",
+      "sports"
+    ]
+  },
+  {
+    "city": "Frankfurt",
+    "name": "Rhine Valley Wine Cruise",
+    "description": "Day cruise through the romantic Rhine Valley with wine tasting and castles.",
+    "category": "Sightseeing",
+    "duration": "9 hours",
+    "price": 85,
+    "currency": "EUR",
+    "tags": [
+      "nature",
+      "wine",
+      "history"
+    ]
+  },
+  {
+    "city": "Frankfurt",
+    "name": "Old Town & R\u00f6merberg Walking Tour",
+    "description": "Explore Frankfurt's reconstructed medieval old town and modern skyline.",
+    "category": "Cultural",
+    "duration": "3 hours",
+    "price": 30,
+    "currency": "EUR",
+    "tags": [
+      "history",
+      "architecture",
+      "culture"
+    ]
+  }
+]

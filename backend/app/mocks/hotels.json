@@ -1,0 +1,622 @@
+[
+  {
+    "city": "Delhi",
+    "name": "The Lalit New Delhi",
+    "price_per_night": 8500,
+    "currency": "INR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Restaurant", "Gym", "Airport Shuttle"],
+    "area": "Connaught Place",
+    "availability": true
+  },
+  {
+    "city": "Delhi",
+    "name": "Hotel Shanti Palace",
+    "price_per_night": 3500,
+    "currency": "INR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "AC", "Room Service"],
+    "area": "Karol Bagh",
+    "availability": true
+  },
+  {
+    "city": "Mumbai",
+    "name": "The Taj Mahal Palace",
+    "price_per_night": 18000,
+    "currency": "INR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Sea View", "Restaurant", "Bar", "Gym"],
+    "area": "Colaba",
+    "availability": true
+  },
+  {
+    "city": "Mumbai",
+    "name": "Hotel Suba Palace",
+    "price_per_night": 4200,
+    "currency": "INR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "AC", "City View"],
+    "area": "Andheri",
+    "availability": true
+  },
+  {
+    "city": "Bangalore",
+    "name": "ITC Gardenia",
+    "price_per_night": 12000,
+    "currency": "INR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Restaurant", "Gym", "Business Center"],
+    "area": "Residency Road",
+    "availability": true
+  },
+  {
+    "city": "Bangalore",
+    "name": "Treebo Trend Amoha Residency",
+    "price_per_night": 3000,
+    "currency": "INR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "AC"],
+    "area": "BTM Layout",
+    "availability": true
+  },
+  {
+    "city": "Goa",
+    "name": "Taj Exotica Resort & Spa",
+    "price_per_night": 15000,
+    "currency": "INR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Beach Access", "Spa", "Restaurant", "Bar", "Water Sports"],
+    "area": "Benaulim Beach",
+    "availability": true
+  },
+  {
+    "city": "Goa",
+    "name": "Coconut Creek Resort",
+    "price_per_night": 4500,
+    "currency": "INR",
+    "rating": 3,
+    "amenities": ["WiFi", "Pool", "Beach Access", "Restaurant"],
+    "area": "Baga Beach",
+    "availability": true
+  },
+  {
+    "city": "Jaipur",
+    "name": "Rambagh Palace",
+    "price_per_night": 20000,
+    "currency": "INR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Heritage Property", "Restaurant", "Bar", "Gym"],
+    "area": "Bhawani Singh Road",
+    "availability": true
+  },
+  {
+    "city": "Jaipur",
+    "name": "Hotel Royal Orchid",
+    "price_per_night": 3800,
+    "currency": "INR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "AC", "Rooftop Restaurant"],
+    "area": "MI Road",
+    "availability": true
+  },
+  {
+    "city": "Dubai",
+    "name": "Burj Al Arab Jumeirah",
+    "price_per_night": 950,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Private Beach", "Spa", "Multiple Restaurants", "Butler Service", "Helipad Access"],
+    "area": "Jumeirah Beach",
+    "availability": true
+  },
+  {
+    "city": "Dubai",
+    "name": "Rove Downtown",
+    "price_per_night": 120,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Pool", "Breakfast", "Gym", "City View"],
+    "area": "Downtown Dubai",
+    "availability": true
+  },
+  {
+    "city": "Abu Dhabi",
+    "name": "Emirates Palace Mandarin Oriental",
+    "price_per_night": 800,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Private Beach", "Spa", "Multiple Restaurants", "Marina", "Gold ATM"],
+    "area": "Corniche",
+    "availability": true
+  },
+  {
+    "city": "Abu Dhabi",
+    "name": "Centro Al Manhal",
+    "price_per_night": 95,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Pool", "Breakfast", "Gym"],
+    "area": "Al Manhal",
+    "availability": true
+  },
+  {
+    "city": "Singapore",
+    "name": "Marina Bay Sands",
+    "price_per_night": 420,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Infinity Pool", "Spa", "Casino", "Shopping Mall", "Multiple Restaurants", "Skypark Access"],
+    "area": "Marina Bay",
+    "availability": true
+  },
+  {
+    "city": "Singapore",
+    "name": "Hotel Boss",
+    "price_per_night": 85,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "AC", "Near MRT"],
+    "area": "Lavender",
+    "availability": true
+  },
+  {
+    "city": "Bangkok",
+    "name": "Mandarin Oriental Bangkok",
+    "price_per_night": 280,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "River View", "Spa", "Pool", "Multiple Restaurants", "Boat Shuttle"],
+    "area": "Riverside",
+    "availability": true
+  },
+  {
+    "city": "Bangkok",
+    "name": "Lub d Bangkok Siam",
+    "price_per_night": 35,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Rooftop Bar", "Near BTS"],
+    "area": "Siam",
+    "availability": true
+  },
+  {
+    "city": "Phuket",
+    "name": "Amanpuri",
+    "price_per_night": 650,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Private Beach", "Spa", "Pool Villas", "Restaurant", "Yacht Access"],
+    "area": "Pansea Beach",
+    "availability": true
+  },
+  {
+    "city": "Phuket",
+    "name": "The Cozy Patong",
+    "price_per_night": 45,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Pool", "Beach Access", "Breakfast"],
+    "area": "Patong Beach",
+    "availability": true
+  },
+  {
+    "city": "Chiang Mai",
+    "name": "137 Pillars House",
+    "price_per_night": 320,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Colonial Architecture", "Restaurant", "Cooking Classes"],
+    "area": "Wat Gate",
+    "availability": true
+  },
+  {
+    "city": "Chiang Mai",
+    "name": "Baan Hanibah",
+    "price_per_night": 30,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Garden", "Near Old City"],
+    "area": "Old City",
+    "availability": true
+  },
+  {
+    "city": "Jakarta",
+    "name": "The Ritz-Carlton Jakarta",
+    "price_per_night": 180,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Multiple Restaurants", "Executive Lounge", "Shopping Mall Access"],
+    "area": "Mega Kuningan",
+    "availability": true
+  },
+  {
+    "city": "Jakarta",
+    "name": "favehotel Melawai",
+    "price_per_night": 35,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "AC", "Near Metro"],
+    "area": "Melawai",
+    "availability": true
+  },
+  {
+    "city": "Bali",
+    "name": "Four Seasons Resort Bali at Sayan",
+    "price_per_night": 550,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Infinity Pool", "Spa", "Jungle View", "Restaurant", "Yoga", "Rice Terrace View"],
+    "area": "Ubud",
+    "availability": true
+  },
+  {
+    "city": "Bali",
+    "name": "Kuta Central Park Hotel",
+    "price_per_night": 40,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Pool", "Beach Access", "Breakfast"],
+    "area": "Kuta Beach",
+    "availability": true
+  },
+  {
+    "city": "Surabaya",
+    "name": "JW Marriott Hotel Surabaya",
+    "price_per_night": 120,
+    "currency": "USD",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Restaurant", "Shopping Mall Access"],
+    "area": "Tegalsari",
+    "availability": true
+  },
+  {
+    "city": "Surabaya",
+    "name": "Hotel Santika Pandegiling",
+    "price_per_night": 32,
+    "currency": "USD",
+    "rating": 3,
+    "amenities": ["WiFi", "Pool", "Breakfast", "Restaurant"],
+    "area": "Pandegiling",
+    "availability": true
+  },
+  {
+    "city": "Sydney",
+    "name": "Park Hyatt Sydney",
+    "price_per_night": 650,
+    "currency": "AUD",
+    "rating": 5,
+    "amenities": ["WiFi", "Opera House View", "Spa", "Rooftop Pool", "Restaurant", "Harbor View"],
+    "area": "The Rocks",
+    "availability": true
+  },
+  {
+    "city": "Sydney",
+    "name": "Ibis Budget Sydney East",
+    "price_per_night": 95,
+    "currency": "AUD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train Station"],
+    "area": "Woolloomooloo",
+    "availability": true
+  },
+  {
+    "city": "Melbourne",
+    "name": "Crown Towers Melbourne",
+    "price_per_night": 420,
+    "currency": "AUD",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Casino", "Multiple Restaurants", "River View"],
+    "area": "Southbank",
+    "availability": true
+  },
+  {
+    "city": "Melbourne",
+    "name": "Ibis Melbourne Central",
+    "price_per_night": 110,
+    "currency": "AUD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Tram", "City View"],
+    "area": "CBD",
+    "availability": true
+  },
+  {
+    "city": "Brisbane",
+    "name": "W Brisbane",
+    "price_per_night": 350,
+    "currency": "AUD",
+    "rating": 5,
+    "amenities": ["WiFi", "Rooftop Pool", "Spa", "Restaurant", "River View", "WET Bar"],
+    "area": "Brisbane CBD",
+    "availability": true
+  },
+  {
+    "city": "Brisbane",
+    "name": "Ibis Styles Brisbane",
+    "price_per_night": 100,
+    "currency": "AUD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train"],
+    "area": "Elizabeth Street",
+    "availability": true
+  },
+  {
+    "city": "Perth",
+    "name": "COMO The Treasury",
+    "price_per_night": 480,
+    "currency": "AUD",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Heritage Building", "Restaurant", "Bar"],
+    "area": "Perth CBD",
+    "availability": true
+  },
+  {
+    "city": "Perth",
+    "name": "The Melbourne Hotel",
+    "price_per_night": 90,
+    "currency": "AUD",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train", "Pub"],
+    "area": "Perth CBD",
+    "availability": true
+  },
+  {
+    "city": "Gold Coast",
+    "name": "The Star Grand at The Star Gold Coast",
+    "price_per_night": 320,
+    "currency": "AUD",
+    "rating": 5,
+    "amenities": ["WiFi", "Beach Access", "Casino", "Pool", "Spa", "Multiple Restaurants"],
+    "area": "Broadbeach",
+    "availability": true
+  },
+  {
+    "city": "Gold Coast",
+    "name": "Vibe Hotel Gold Coast",
+    "price_per_night": 130,
+    "currency": "AUD",
+    "rating": 3,
+    "amenities": ["WiFi", "Pool", "Beach Access", "Breakfast"],
+    "area": "Surfers Paradise",
+    "availability": true
+  },
+  {
+    "city": "London",
+    "name": "The Savoy",
+    "price_per_night": 550,
+    "currency": "GBP",
+    "rating": 5,
+    "amenities": ["WiFi", "Thames View", "Spa", "Pool", "Multiple Restaurants", "Historic Property", "Butler Service"],
+    "area": "Strand",
+    "availability": true
+  },
+  {
+    "city": "London",
+    "name": "Premier Inn London City",
+    "price_per_night": 95,
+    "currency": "GBP",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Tube", "Restaurant"],
+    "area": "Tower Hill",
+    "availability": true
+  },
+  {
+    "city": "Manchester",
+    "name": "The Lowry Hotel",
+    "price_per_night": 220,
+    "currency": "GBP",
+    "rating": 5,
+    "amenities": ["WiFi", "Spa", "River View", "Restaurant", "Bar"],
+    "area": "Salford",
+    "availability": true
+  },
+  {
+    "city": "Manchester",
+    "name": "Travelodge Manchester Central",
+    "price_per_night": 65,
+    "currency": "GBP",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Central Location"],
+    "area": "City Centre",
+    "availability": true
+  },
+  {
+    "city": "Edinburgh",
+    "name": "The Balmoral Hotel",
+    "price_per_night": 380,
+    "currency": "GBP",
+    "rating": 5,
+    "amenities": ["WiFi", "Spa", "Castle View", "Michelin Star Restaurant", "Historic Property"],
+    "area": "Princes Street",
+    "availability": true
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Ibis Edinburgh Centre South Bridge",
+    "price_per_night": 75,
+    "currency": "GBP",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Royal Mile"],
+    "area": "Old Town",
+    "availability": true
+  },
+  {
+    "city": "Paris",
+    "name": "Le Bristol Paris",
+    "price_per_night": 850,
+    "currency": "EUR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "3 Michelin Star Restaurant", "Garden", "Palace Hotel"],
+    "area": "Rue du Faubourg Saint-Honoré",
+    "availability": true
+  },
+  {
+    "city": "Paris",
+    "name": "Ibis Paris Gare du Nord",
+    "price_per_night": 110,
+    "currency": "EUR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Metro", "24h Reception"],
+    "area": "10th Arrondissement",
+    "availability": true
+  },
+  {
+    "city": "Nice",
+    "name": "Hotel Negresco",
+    "price_per_night": 450,
+    "currency": "EUR",
+    "rating": 5,
+    "amenities": ["WiFi", "Sea View", "Private Beach", "2 Michelin Star Restaurant", "Art Collection"],
+    "area": "Promenade des Anglais",
+    "availability": true
+  },
+  {
+    "city": "Nice",
+    "name": "Ibis Nice Centre Gare",
+    "price_per_night": 85,
+    "currency": "EUR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train Station"],
+    "area": "City Centre",
+    "availability": true
+  },
+  {
+    "city": "Lyon",
+    "name": "Villa Florentine",
+    "price_per_night": 320,
+    "currency": "EUR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Michelin Star Restaurant", "City View", "Renaissance Building"],
+    "area": "Fourvière Hill",
+    "availability": true
+  },
+  {
+    "city": "Lyon",
+    "name": "Ibis Lyon Centre Perrache",
+    "price_per_night": 75,
+    "currency": "EUR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train Station"],
+    "area": "Perrache",
+    "availability": true
+  },
+  {
+    "city": "Zurich",
+    "name": "Baur au Lac",
+    "price_per_night": 750,
+    "currency": "CHF",
+    "rating": 5,
+    "amenities": ["WiFi", "Lake View", "Spa", "Michelin Star Restaurant", "Private Park", "Historic Property"],
+    "area": "Lake Zurich",
+    "availability": true
+  },
+  {
+    "city": "Zurich",
+    "name": "Ibis Zurich City West",
+    "price_per_night": 140,
+    "currency": "CHF",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Tram"],
+    "area": "Altstetten",
+    "availability": true
+  },
+  {
+    "city": "Geneva",
+    "name": "Hotel d'Angleterre",
+    "price_per_night": 650,
+    "currency": "CHF",
+    "rating": 5,
+    "amenities": ["WiFi", "Lake View", "Spa", "Michelin Star Restaurant", "Historic Property"],
+    "area": "Lake Geneva",
+    "availability": true
+  },
+  {
+    "city": "Geneva",
+    "name": "Ibis Geneva Centre Gare",
+    "price_per_night": 130,
+    "currency": "CHF",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train Station"],
+    "area": "Cornavin",
+    "availability": true
+  },
+  {
+    "city": "Lucerne",
+    "name": "Hotel Schweizerhof Luzern",
+    "price_per_night": 480,
+    "currency": "CHF",
+    "rating": 5,
+    "amenities": ["WiFi", "Lake View", "Spa", "Restaurant", "Historic Property", "Mountain View"],
+    "area": "Lake Lucerne",
+    "availability": true
+  },
+  {
+    "city": "Lucerne",
+    "name": "Ibis Budget Luzern City",
+    "price_per_night": 110,
+    "currency": "CHF",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train Station"],
+    "area": "City Centre",
+    "availability": true
+  },
+  {
+    "city": "Berlin",
+    "name": "Hotel Adlon Kempinski",
+    "price_per_night": 420,
+    "currency": "EUR",
+    "rating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Brandenburg Gate View", "2 Michelin Star Restaurant", "Historic Property"],
+    "area": "Unter den Linden",
+    "availability": true
+  },
+  {
+    "city": "Berlin",
+    "name": "Ibis Berlin Hauptbahnhof",
+    "price_per_night": 85,
+    "currency": "EUR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train Station"],
+    "area": "Mitte",
+    "availability": true
+  },
+  {
+    "city": "Munich",
+    "name": "Bayerischer Hof",
+    "price_per_night": 480,
+    "currency": "EUR",
+    "rating": 5,
+    "amenities": ["WiFi", "Rooftop Pool", "Spa", "3 Restaurants", "Cinema", "Nightclub"],
+    "area": "Promenadeplatz",
+    "availability": true
+  },
+  {
+    "city": "Munich",
+    "name": "Ibis München City",
+    "price_per_night": 95,
+    "currency": "EUR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near U-Bahn"],
+    "area": "Sendling",
+    "availability": true
+  },
+  {
+    "city": "Frankfurt",
+    "name": "Jumeirah Frankfurt",
+    "price_per_night": 350,
+    "currency": "EUR",
+    "rating": 5,
+    "amenities": ["WiFi", "Spa", "Sky Lounge", "Restaurant", "City View"],
+    "area": "Thurn-und-Taxis-Platz",
+    "availability": true
+  },
+  {
+    "city": "Frankfurt",
+    "name": "Ibis Frankfurt Centrum",
+    "price_per_night": 80,
+    "currency": "EUR",
+    "rating": 3,
+    "amenities": ["WiFi", "Breakfast", "Near Train Station"],
+    "area": "Gutleutstraße",
+    "availability": true
+  }
+]
